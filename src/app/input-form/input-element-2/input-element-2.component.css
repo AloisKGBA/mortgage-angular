@@ -1,0 +1,23 @@
+.inpt{
+        border: 1px solid black;
+        border-radius : 5px;
+        display: flex;
+        align-items: center;
+        padding-right: 1px ;
+        background-color: hsl(202, 86%, 94%) ;
+}
+.bod{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0 5px;
+    justify-content: space-between;
+}
+span{
+    padding: 10px;
+}
+input {
+    padding: 11.5px;
+    border: none;
+    border-radius: 10px 0 0 10px ;
+}
