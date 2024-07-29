@@ -1,0 +1,10 @@
+.bouton{
+    display: flex;
+    align-items: center;
+    background-color: hsl(61, 70%, 52%) ;
+    padding: 10px 10px 10px 20px;
+    border-radius: 30px;
+    width: 70%;
+    
+
+}
