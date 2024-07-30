@@ -6,3 +6,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+p:hover {
+    text-decoration: underline;
+}
