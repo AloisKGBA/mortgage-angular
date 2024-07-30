@@ -9,7 +9,7 @@
 .bod{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
     gap: 0 5px;
     justify-content: space-between;
 }
@@ -17,9 +17,10 @@ span{
     padding: 10px;
 }
 input {
-    padding: 11.5px;
+    padding: 12px;
     border: none;
     border-radius: 10px 0 0 10px ;
+    width: 100px;
 }
 .element{
     display: flex;
