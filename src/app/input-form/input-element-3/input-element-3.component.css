@@ -12,3 +12,6 @@
     flex-direction: column;
     gap: 5px;
 }
+.selection:hover{
+    border-color: hsl(61, 70%, 52%);
+}
