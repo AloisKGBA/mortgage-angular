@@ -1,5 +1,12 @@
 body{
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    height: 500px;
+    width: 430px;
+    margin: 0;
 }
 .tete{
     display: flex;
@@ -8,4 +15,7 @@ body{
 }
 p:hover {
     text-decoration: underline;
+}
+h1{
+    font-size: 700;
 }
