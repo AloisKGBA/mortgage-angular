@@ -3,6 +3,11 @@ h1{
     color: white;
 }
 p {
-    font-size: 16px;
-    color: hsl(200, 26%, 54%);
+    font-size: 17px;
+    color: hwb(200 42% 34%);
+}
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

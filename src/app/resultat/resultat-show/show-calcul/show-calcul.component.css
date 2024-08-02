@@ -7,7 +7,7 @@
 }
 .resultsm{
     color: hsl(61, 70%, 52%);
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 700;
     margin: 0;
 }
@@ -17,7 +17,8 @@
     padding: 20px;
     border-top: 3px solid hsl(61, 70%, 52%);
     border-radius: 10px;
-    height: 25%;
+    height: 20%;
+    gap: 40px;
 }
 div{
     display: flex;
@@ -33,7 +34,10 @@ div{
     flex-direction: column;
     gap: 5px;
     border-bottom: 1px solid hsl(200, 24%, 40%);
+    padding-bottom: 30px;
 }
 .title{
     color: hsl(200, 26%, 54%);
+    font-size: 16px;
+    margin: 0;
 }
