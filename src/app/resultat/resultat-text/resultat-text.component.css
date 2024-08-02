@@ -4,6 +4,7 @@ div{
     align-items: center;
     padding: 20px;
     width: 100%;
+    display: none;
 }
 p{
     text-align: center;

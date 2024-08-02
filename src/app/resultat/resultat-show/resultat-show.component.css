@@ -1,0 +1,13 @@
+h1{
+    font-size: 30px;
+    color: white;
+}
+p {
+    font-size: 17px;
+    color: hwb(200 42% 34%);
+}
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

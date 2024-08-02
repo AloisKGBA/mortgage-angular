@@ -32,3 +32,7 @@ input {
     border: 1px solid rgb(78, 78, 78);
     border-top-right-radius: 1.5px;
 }
+.error{
+    color: hsl(4, 69%, 50%);
+    display: none;
+}

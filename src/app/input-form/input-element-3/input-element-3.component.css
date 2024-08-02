@@ -15,3 +15,7 @@
 .selection:hover{
     border-color: hsl(61, 70%, 52%);
 }
+.error{
+    color: hsl(4, 69%, 50%);
+    display: none;
+}

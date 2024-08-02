@@ -5,8 +5,12 @@
     display: flex;
     align-items: center;
     width: 100%;
+    gap: 10px;
     padding-right: 1px ;
     background-color: hsl(202, 86%, 94%) ;
+}
+label{
+    margin-bottom: 10px;
 }
 span{
     margin-right: -1px;
@@ -24,4 +28,8 @@ input {
     border: 1px solid rgb(78, 78, 78);
     border-top-right-radius: 1.5px;
     
+}
+.error{
+    color:  hsl(4, 69%, 50%);
+    display: none;
 }
