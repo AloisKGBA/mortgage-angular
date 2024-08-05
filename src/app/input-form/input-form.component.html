@@ -1,11 +1,40 @@
 <body>
-    <app-titre></app-titre>
-    <app-input-element-1></app-input-element-1>
-    <p></p>
-    <app-input-element-2></app-input-element-2> 
-    <P></P>
-    <app-input-element-3></app-input-element-3>   
-    <p></p>
-    <app-input-element-4></app-input-element-4>
+    <div class="tete">
+        <h1>Mortgage calculator</h1>
+        <p>Clear all</p>
+    </div>
+    <div class="un">
+        <label for="amount">Mortgage amount</label>
+        <div class="inpt">
+            <span>£</span><input type="number" name="amount" id="amount">
+        </div>
+    </div>
+    <div class="deux">
+        <div class="term">
+            <label for="mterm">Mortgage Term</label>
+            <div class="inpt">
+                <input type="number" name="mterm" id="mterm"><span>years</span>
+            </div>
+        </div>
+        <div class="rate">
+            <label for="mrate">Interest Rate</label>
+            <div class="inpt">
+                <input type="number" name="mrate" id="mrate"><span>%</span>
+            </div>
+        </div>
+    </div>
+    <div class="type">
+        <p>Mortgage Type</p>
+        <div class="btn">
+            <input type="radio" name="mtype" value="1" id="repayment"><label for="repayment">Repayment</label>
+        </div>
+        <div class="btn">
+            <input type="radio" name="mtype" value="2" id="Interest"><label for="Interest">Interest Only</label>
+        </div>
+    </div>
+    <div class="bouton">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#133041" d="M18.75 2.25H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5Zm-10.5 16.5a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 18.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 15a1.125 1.125 0 1 1 0-2.25A1.125 1.125 0 0 1 12 15Zm3.75 3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm1.5-5.25a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 .75.75v3.75Z"/></svg>
+        Calculate Repayment
+    </div>
 </body>
 
