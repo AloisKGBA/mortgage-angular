@@ -7,14 +7,58 @@ body{
     height: 600px;
     width: 430px;
     margin: 0;
-    margin-top: -20px;
     justify-content: space-around;
 }
-.tete{
+
+
+.tete {
     display: flex;
-    align-items: center;
+    align-items: first baseline;
     justify-content: space-between;
 }
-h1{
-    font-size: 700;
+.tete p:hover{
+    text-decoration: underline;
+}
+.tete p{
+    font-size: 20px;
+}
+
+.un {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inpt{
+    display: flex;
+    align-items: center;
+    background-color: hsl(202, 86%, 94%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input{
+    width: 100%;
+    padding: 22px;
+    margin: -1px;  
+    border: none;
+}
+span{
+    padding: 20px;
+    margin: 0;
+}
+.un input{
+    border-radius: 0 10px 10px 0;
+    margin-right: 0;
+}
+.deux input{
+    border-radius: 10px 0 0 10px;
+    margin-left: 0;
+    padding: 15px;
+}
+.deux{
+    display: flex;
+    flex-direction: row;
+    gap: 0 5px;
+}
+.deux span{
+    padding: auto;
 }
